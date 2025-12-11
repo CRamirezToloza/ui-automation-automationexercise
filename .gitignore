@@ -1,0 +1,21 @@
+# ---- PyCharm / IDE ----
+.idea/
+
+# ---- Entornos virtuales ----
+.venv/
+venv/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.pytest_cache/
+.cache/
+.mypy_cache/
+
+# ---- SO / basura ----
+.DS_Store
+Thumbs.db
