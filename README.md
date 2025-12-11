@@ -11,7 +11,7 @@
 <a href="https://automationexercise.com" target="_blank">https://automationexercise.com</a>  
 
 Este repositorio implementa un framework de automatización para pruebas smoke y flujos E2E.  
-Está desarrollado con **Python, Selenium WebDriver y Pytest**, aplicando el patrón **Page Object Model (POM)** para mantener el código modular, legible y fácil de extender con nuevos casos de prueba.
+Está desarrollado con **Python, Selenium WebDriver y Pytest**, aplicando el patrón **Page Object Model** para mantener el código modular, legible y fácil de extender con nuevos casos de prueba.
 
 ### 🎯 Objetivos del proyecto
 - Automatizar flujos críticos de la aplicación
@@ -22,7 +22,9 @@ Está desarrollado con **Python, Selenium WebDriver y Pytest**, aplicando el pat
   - Reutilización de métodos para escalabilidad  
   - Tests parametrizables  
   - Selectores CSS estables (sin uso de textos ni índices frágiles)
-    
+  
+<div style="height: 30px;"></div>
+
 ### 🧪 Test Cases Incluidos
 
 #### 🔐 Login
@@ -40,6 +42,8 @@ Está desarrollado con **Python, Selenium WebDriver y Pytest**, aplicando el pat
   - Validación en carrito: precios, cantidades y totales  
   - Cálculo automático `price * qty = total`
 
+<div style="margin-top: 20px;"></div>
+
 ### 🧼 Pruebas de interfaz
 - Validación de visibilidad de elementos.
 - Validación de navegación entre páginas.
@@ -47,6 +51,8 @@ Está desarrollado con **Python, Selenium WebDriver y Pytest**, aplicando el pat
     
 
 </td>
+
+<td width="2%"></td>
 
 <td width="50%" valign="top">
 
@@ -68,6 +74,7 @@ It is built using **Python, Selenium WebDriver, and Pytest**, following the **Pa
   - Parametrized tests  
   - Stable CSS selectors (avoiding fragile text-based or index-based locators)
     
+<div style="height: 30px;"></div>
 
 ### 🧪 Included Test Cases 
 
@@ -85,6 +92,8 @@ It is built using **Python, Selenium WebDriver, and Pytest**, following the **Pa
   - Modal handling (“Continue Shopping”)  
   - Cart validation: prices, quantities, totals
   - Automatic calculation `price * qty = total`
+
+<div style="margin-top: 20px;"></div>
 
 ### 🧼 UI Checks
 - Element visibility validation.
