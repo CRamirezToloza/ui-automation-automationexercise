@@ -1,5 +1,7 @@
 # 🧪 UI Automation – Automation Exercise (Selenium + Pytest + POM)
 
+![CI](https://github.com/CRamirezToloza/ui-automation-automationexercise/actions/workflows/tests.yml/badge.svg)
+
 <table>
 <tr>
 
@@ -116,6 +118,19 @@ It is built using **Python, Selenium WebDriver, and Pytest**, following the **Pa
 
 *(Próximas mejoras: reportes pytest-html, ejecución en CI/CD con GitHub Actions, Allure Reports, más flujos E2E)*  
 *(Coming improvements: pytest-html reporting, CI/CD execution with GitHub Actions, Allure Reports, additional E2E flows)*
+
+---
+
+## 🔄 CI/CD – Continuous Integration
+
+This project includes a Continuous Integration (CI) pipeline implemented with **GitHub Actions**.
+
+The pipeline runs automatically on every push and pull request to the `main` branch and performs the following steps:
+- Sets up a clean Linux environment
+- Installs project dependencies from `requirements.txt`
+- Executes the Selenium test suite using **Pytest** in **headless mode**
+
+This ensures early detection of issues and validates test stability in an isolated environment.
 
 ---
 
